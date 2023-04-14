@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog : Editor</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/editor.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xl navbar-light ">
+        <!-- Start of Nav bar  -->
+        <!-- <nav class="navbar navbar-expand-xl navbar-fixed-top"> -->
+
+        <a class=" logo" href="http://localhost:3000/"><strong> <i>Divine Door </i></strong> </a>
+        <div class="collapse navbar-collapse shift" id="navbarTogglerDemo02">
+            <ul class="navbar-nav links-container ml-auto">
+                <!-- <ul class="navbar-nav links-container me-auto mb-2 mb-xl-0"> -->
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="http://localhost:3000/">HOME</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="http://localhost:3000/#about-us">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://localhost:3000/#blog">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://localhost:3000/#FT">CONTACT</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Donate</a>
+                </li> -->
+            </ul>
+        </div>
+
+    </nav>
+    <div class="banner">
+        <input type="file" accept="image/*" id="banner-upload" hidden>
+        <label for="banner-upload" class="banner-upload-btn"><img src="images/upload1.png" alt="upload banner"></label>
+    </div>
+
+    <div class="blog">
+        <textarea type="text" class="title" placeholder="Blog title..."></textarea>
+        <textarea type="text" class="article" placeholder="Start writing here..."></textarea>
+    </div>
+
+    <div class="blog-options">
+
+        <button type="button" class="btn btn-primary mb-2 disabled">Publish</button>
+        <input type="file" accept="image/*" id="image-upload" hidden>
+        <label for="image-upload" class="btn grey upload-btn">Upload Image</label>
+    </div>
+    <script src="js/editor.js"></script>
+
+</body>
+
+</html>

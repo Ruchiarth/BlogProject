@@ -1,0 +1,347 @@
+
+
+body{
+    width: 100%;
+    position: relative; 
+     height: 100vh;  
+     background-size:cover;
+}
+
+
+*{
+    margin:0;
+    padding :0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+} 
+/* ::selection{
+    background: #1b1b1b;
+    color:#fff;
+} */
+
+
+/* NAV BAR  */
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    position:  static;    /* fixed; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+    background:#fbf4f4;
+    z-index: 100;
+}
+
+.nav-link{
+    padding: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+}
+.logo{
+    
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #790666;
+
+}
+/* HEADER  */
+
+.header{
+   
+    width: 100%;
+    height: calc(100vh - 60px);
+    background: url(../images/Background/bk0.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    text-align: center;
+}
+
+.heading{
+    color: #fafafa;
+    text-transform: capitalize;
+    font-size: 80px;
+    line-height: 60px;
+    margin-bottom: 350px;
+}
+
+.heading .small{
+    display: block;
+    font-size: 48px;
+}
+
+.heading .no-fill{
+    font-style: italic;
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+}
+.btns{
+    padding: 5px 5px 0 5px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.btnblog{
+    padding: 15px 15px 10px 15px;
+    border-radius: 80px;
+    background:#790666;    
+    color:#ffc107;
+    text-decoration:solid;
+    text-transform: capitalize;
+   
+
+}
+.abtus{
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-left: 55px;
+
+
+
+}
+.imgdg{
+
+    width: 700px;
+
+}
+
+
+
+.blog{
+    width: 100%;
+    padding: 10px 5vw;
+    width: 100%;
+    height: calc(100vh - 60px);
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.blog-card .blog-card-image {
+    height: 60%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top:  -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.blog-card .blog-card-image img {
+   
+    width: 500px;
+    height: 312px;
+    border-radius: 6px;
+    pointer-events: none;
+    object-fit: cover;
+}
+.blog-card .blog-table {
+    padding: 15px 30px;
+}
+.blog-table {
+    margin-bottom: 0px;
+}
+.blog-category {
+    position: relative;
+    line-height: 0;
+    margin: 15px 0;
+}
+.blog-text-success {
+    color: #28a745!important;
+}
+.blog-card-blog .blog-card-caption {
+    margin-top: 5px;
+}
+.blog-card-caption {
+    font-weight: 700;
+    font-family: "Roboto Slab", "Times New Roman", serif;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.blog-card-caption, .blog-card-caption a {
+    color: #333;
+    text-decoration: none;
+}
+
+p {
+    color: #3C4857;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.blog-card .ftr {
+    margin-top: 15px;
+}
+.blog-card .ftr .author {
+    color: #888;
+}
+
+.blog-card .ftr div {
+    display: inline-block;
+}
+.blog-card .author .avatar {
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 5px;blog-
+}
+.blog-card .ftr .stats {
+    position: relative;
+    top: 1px;
+    font-size: 14px;
+}
+.blog-card .ftr .stats {
+    float: right;
+    line-height: 30px;
+}
+
+.bk_art1{
+
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 220px;
+    width: 100%;
+    height: calc(100vh - 10px);
+    background: url(../images/DG/bdg2.jpeg);
+    background-size:cover;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bk_art2{
+
+    margin-top: 60px;
+    width: 100%;
+    height: calc(100vh - 60px);
+    background: url(../images/Simple/simple.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bk_art3{
+
+    margin-top: 60px;
+    width: 100%;
+    height: calc(100vh - 60px);
+    background: url(../images/Gratitude/bg1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bk_art4{
+
+    margin-top: 60px;
+    width: 100%;
+    height: calc(100vh - 60px);
+    background: url(../images/Attitude/ba8.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bk_art0{
+
+    margin-top: 0px;
+    width: 100%;
+    height: calc(100vh - 60px);
+    /* background: url(../images/Background/bk22.jpg);
+    background-size: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.article1{
+
+     margin-left: 20px;
+    margin-right: 50px;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+
+}
+.textcon{
+    display:block;
+    justify-content: left;
+    text-align: justify;
+}
+.blog-post {
+    
+    text-align: justify;
+}
+  }
+.blog-post-meta {
+    margin-bottom: 20px;
+    color: #999;
+  }
+  .blog-title {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: normal;
+  }
+  .blog-description {
+    font-size: 20px;
+    color: #999;
+  }
+  .blog-main {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .blog-footer {
+    padding: 40px 0;
+    color: #999;
+    text-align: center;
+    background-color:#fbf4f4;
+    border-top: 1px solid #1c1a1a;
+    
+  }
+  .blog-footer p:last-child {
+    margin-bottom: 0;
+  }
+  
+.form-control{
+    width : 40%;
+   
+    
+}
+.divcontent{
+    text-align: justify;
+}
+
+ 
